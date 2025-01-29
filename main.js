@@ -37,7 +37,7 @@ function GasStation(strArr) {
     }
   }
 
-  return -1;
+  return "Impossible";
 }
 
 function isGasStationCircular(stations, startPoint, stationCount) {
@@ -75,5 +75,7 @@ test(GasStation(["4", "3:1", "2:2", "1:2", "0:1"]), 1);
 // console.log(`\n============= Test: 2 =============`);
 test(GasStation(["4", "0:1", "2:2", "1:2", "3:1"]), 4);
 // console.log(`-----------------------------------`);
+
+test(GasStation(["4", "0:1", "2:10", "1:2", "3:1"]), "Impossible");
 
 // console.log("\n\n\n");
