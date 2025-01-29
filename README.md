@@ -14,3 +14,11 @@ or
 npm i
 npm run dev
 ```
+
+## Code structure
+
+<b>GasStation</b> is the main function for task
+
+<b>isGasStationCircular</b> is the calculator for circular way
+
+<b>test</b> is for unit tests
